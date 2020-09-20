@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>hello world</h1>
+    <form method="POST">
+        {% csrf_token %} Enter name of your city
+        <input type="text" name="city" required='true'>
+        <input type="submit" value="submit">
+    </form>
+
+    <h1>city name::{{c.city}}</h1>
+    <h2>weather::{{c.weather}}</h2>
+    <h2>temperature in K::{{c.temprature}}</h2>
+    <h2>humidity::{{c.humidity}}</h2>
+    <h2>country::{{c.country}}</h2>
+</body>
+
+</html>
