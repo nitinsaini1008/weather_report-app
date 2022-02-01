@@ -16,7 +16,6 @@ enter your location. For this app, I use a weather API in my web app.
 Then this project will start running at 127.0.0.1:8000
 
 
-https://user-images.githubusercontent.com/62613600/151938686-38d6b131-c4a6-431d-bfc2-af11c9c14f03.mp4
 
 # Tech Stack:-
 Back-End:-<br />
