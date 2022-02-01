@@ -8,7 +8,7 @@ enter your location. For this app, I use a weather API in my web app.
 # Local Set-Up :- 
     $ git clone https://github.com/nitinsaini1008/weather_report-app.git
     $ cd weather_report-app/weather/
-    $ pip3 install requirenment.txt
+    $ pip3 install -r requirenment.txt
     $ python3 manage.py migrate
     $ python3 manage.py runserver
 
